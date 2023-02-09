@@ -124,7 +124,7 @@ const Appbar = () => {
                     </List>
 
                     <Box width={'100%'} display='flex' justifyContent='space-between' alignItems={'center'} py={2} px={4} position='absolute' bottom={0}>
-                        <Typography fontWeight={700} variant='body1'> XID </Typography>
+                        <Typography fontWeight={700} variant='body1'> TAS </Typography>
                         <Box>
                             <IconButton>
                                 <FiFacebook/>

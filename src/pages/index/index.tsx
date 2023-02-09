@@ -4,13 +4,12 @@ import React, { useState } from 'react'
 import Appbar from "../../components/UI/Appbar/Appbar";
 import {Box, Button, Container, Grid, Icon, IconButton, Paper, Typography, useTheme} from "@mui/material";
 import {FiShoppingCart, FiUsers} from "react-icons/all";
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Footer from "../../components/UI/Footer/Footer";
 import RoadMapSVG from '../../assets/svg/roadmap.svg'
 import CEO from '../../assets/svg/ceo.svg'
 import {useNavigate} from "react-router-dom";
-import Biometric from '../../assets/png/biometric.jpg'
+import Biometric from '../../assets/png/airplane.jpg'
 import Metamask from '../../assets/svg/wallets/coinbase.svg'
 import Carousel from "../../components/UI/Carousel/Carousel";
 import usecaseA from '../../assets/png/usecases/img.png'
@@ -74,10 +73,7 @@ function Index() {
                             borderRadius: '20px'
                         }}>
                       <Typography variant='body2'>
-                          From the early days of the World Wide Web to the present, authentication methods
-                          have largely relied on user name and password combinations. As any Internet user
-                          knows, these are both cumbersome and vulnerable to loss or breach, putting users
-                          and institutions at significant risk of loss of privacy and financial losses.
+                          CAPITAL MANAGEMENT, ENTRY-INTO-SERVICE, PROTECTION AND LIQUIDATION OF AERO ASSETS AND EQUIPMENT
                       </Typography>
                         </Box>
                     </Grid>
@@ -86,9 +82,7 @@ function Index() {
                             borderRadius: '20px'
                         }}>
                         <Typography variant='body2'>
-                            XiD Technologies seeks to put an end to the risks and hassles of current
-                            authentication methods: By endowing any Internet user with the ability to carry
-                            their assets and credentials anywhere on the Internet and access them easily and securely through just their face.
+                            EXPERT ANALYSIS, DIAGNOSIS, AND ADVICE OF COMPLEX ISSUES FOR AERO INDUSTRY
                         </Typography>
                         </Box>
                     </Grid>
@@ -97,9 +91,7 @@ function Index() {
                             borderRadius: '20px'
                         }}>
                         <Typography variant='body2'>
-                            Biometric technologies, in particular face recognition, have allowed people
-                            around the world to replace usernames and passwords in a safe and secure manner.
-                            But to date, the Internet has not provided a secure way to store and share such sensitive data.
+                            TOTAL MATERIAL SUPPORT ON HARDWARES, CONSUMABLES, RAW MATERIALS, COMPOSITES AND MORE
                         </Typography>
                         </Box>
                     </Grid>
@@ -108,10 +100,7 @@ function Index() {
                             borderRadius: '20px',
                         }}>
                         <Typography variant='body2'>
-                            As a result, biometric identities, no matter how sophisticated, have only
-                            been stored locally, on digital devices or local servers. However, blockchain
-                            ledgers have created an unprecedented level of security and integrity to store
-                            information on the Internet without any risk of hacking or corruption.
+                            REPAIR MANAGEMENT OF AVIONIC, MECHANICAL AND PNEMATIC, HYDRAULIC, FUEL AND OIL COMPONENTS
                         </Typography>
                         </Box>
                     </Grid>
@@ -158,54 +147,7 @@ function Index() {
 
             <Divider/>
 
-            <Typography paragraph variant='h5' fontWeight='bold'>
-                Pricing
-            </Typography>
-
-            <Typography variant='h6'>
-                The F-NFT sale is executed through multiple rounds:
-            </Typography>
-
-            <Typography variant='h6'>
-                <span className='round'>First round:</span> 1000 F-NFT available on the XiD NFT platform at a cost of <span className='fund'>$1,500</span>
-            </Typography>
-
-            <Typography variant='h6'>
-                <span className='round'>Second Round:</span> 2000 F-NFT available for sale at a cost of <span className='fund'>$3,500</span>
-            </Typography>
-
-            <Typography variant='h6'>
-                <span className='round'>Third Round:</span> 2000 F-NFT available for sale at a cost of <span className='fund'>$5,500</span>
-            </Typography>
-
-
-            <Divider/>
-
-            <Typography paragraph variant='h5' fontWeight='bold'>
-                Our offer
-            </Typography>
-
-
-            <Typography variant='h6' paragraph>
-                Own a Fraction of Our Intellectual Property XiD Technologies acknowledges the utility of F-NFTs and will therefore tokenize its Intellectual Property on the Ethereum (ETH) chain representing 50% ownership in two Singapore patents and two US patents, as well as any future updates or extension of the mentioned patents.
-            </Typography>
-
-
-            <Typography variant='h6'>
-                The F-NFT sales of the XiD fractional IP consists of multiple rounds which add up to a total of 5000 F-NFTs. No additional F-NFTs within the aforementioned patent domain will be created, resulting in a maximum supply of 5000 F-NFTs.            </Typography>
-
-            <Divider/>
-
-
             <NFTList/>
-
-            <Divider/>
-
-            <SponsorsList/>
-
-            <Divider/>
-
-            <RoadMap/>
 
             <Divider/>
 
@@ -215,17 +157,13 @@ function Index() {
 
             <Paper variant='outlined'>
             <Box p={4} sx={{
-                backgroundImage: `url(${Metamask})`,
-                backgroundPosition: '100% -10px',
-                backgroundSize: '100px',
                 backgroundRepeat: 'no-repeat',
-
             }} className='history'>
                 <Typography gutterBottom variant='h5' fontWeight='bold'>
                     Our History
                 </Typography>
                 <Typography variant='body1'>
-                    With over 400K registered users and 1M transactions per day, XiD Technologies is Singapore’s leading pioneer in biometric facial recognition. This multiple award-winning company was founded by Mr. Carmelo Pistorio in 2003 with the ambitious vision of “Making Your Face The Master Key” for everything. In the same year, XiD launched its first biometric facial recognition system in partnership with A*STAR, the Singapore government’s agency for science, technology and research. XiD is working towards creating a future where you only need your face to lock/unlock everything; a world where security, simplicity and privacy are guaranteed by XiD’s facial biometrics. XiD’s facial biometrics systems have been successfully deployed in extremely diverse sectors, ranging from construction, dormitory, banking, commercial, retail as well as education.
+                    TAS has assembled a team of highly skilled professionals with a combined industry experience of more than 50 years. These team members are A listers in Financing, Supply Chain, Parts Trading, Aircraft Technical, Business Development, Back To Birth Trace, Quality Standards, Regulatory Requirements etc... Together with a vast network of industry contacts and consultants, TAS primes itself being at the very best of the industry.
                 </Typography>
             </Box>
             </Paper>
@@ -251,7 +189,7 @@ const Hero = () => {
                         Become a Fractional Owner of Our Intellectual Property
                     </Typography>
                     <Typography color='textSecondary' paragraph variant='subtitle1' maxWidth='60%'>
-                        XiD Technologies pioneered biometrics in 2003, now XiD is building the world’s first decentralized, secure identity verification using facial recognition on the blockchain.
+                        Transcend Aero Services is a company that specializes in providing professional, innovative and competent services for the aerospace and defense industry.
                     </Typography>
                     <Button variant='contained' size='large'>
                         Buy NFT
@@ -296,7 +234,7 @@ export const Team = () => {
                             borderRadius: '10px'
                         }}
                         height={'200px'}
-                        src={CEO} />
+                        src={'CEO'} />
                 </Grid>
                 <Grid item xs={9}>
                     <Box>
@@ -322,32 +260,20 @@ const Utilities = () => {
     return (
         <Box>
             <Typography gutterBottom variant='h5' fontWeight='bold'>
-                Utilities
+                Benefits
             </Typography>
 
             <Typography paragraph variant='body1'>
-                Behaviour and functional of NFTs
+                Yield and Dividends are pre-announced for NFT holders and shared monthly/quarterly.
             </Typography>
 
             {[{
                 id: 1,
-                title: 'F-NFT owner has fractional ownership of XiD’s Intellectual Property and will be able to monetize the 2 US Granted Patents and Singapore Patents'
+                title: 'Aviation News and -Join Aerospace -Community in SEA'
             },
                 {
                     id: 2,
-                    title: ' The F-NFT owners will have fractional ownership in any future international patents derived from all granted patents'
-                },
-                {
-                    id: 3,
-                    title: 'F-NFT owners will receive passive income from product royalties for up to 5 years'
-                },
-                {
-                    id: 4,
-                    title: 'F-NFT owners will receive passive income from every licence sold for up to 5 years'
-                },
-                {
-                    id: 5,
-                    title: 'F-NFT owners will receive portion of net profits from selling the XiD product and service'
+                    title: 'Whitelist slots to next fundraise project for future yield'
                 }].map(item => (
                 <Grid container alignItems='center' pb={2} width='550px' marginLeft={!(item.id % 2) ? 'auto' : 'none'}>
                     <Grid item xs={2} order={item.id % 2 ? 0 : 2}>
@@ -523,7 +449,7 @@ export const NFT = () => {
             </Typography>
 
             <Typography paragraph variant='body2'>
-                Own a fraction of all 4 patents held by XiD technlogies
+                Tap NFT to fund raise US$5m to support Cargo Aircraft Engines
             </Typography>
 
             <Box display='flex' mt={3}>

@@ -82,14 +82,14 @@ const Value = () => {
                     my: 10
                 }}/>
 
-                <Typography variant='h5' color='primary' fontWeight={800}>
-                    What is FaaS IAM Solution?
-                </Typography>
-                <img src={Solution} width={'100%'}/>
+                {/*<Typography variant='h5' color='primary' fontWeight={800}>*/}
+                {/*    What is FaaS IAM Solution?*/}
+                {/*</Typography>*/}
+                {/*<img src={Solution} width={'100%'}/>*/}
 
-                <Divider sx={{
-                    my: 10
-                }}/>
+                {/*<Divider sx={{*/}
+                {/*    my: 10*/}
+                {/*}}/>*/}
 
                 <Typography textAlign='center' variant='h5' color='primary' fontWeight={800}>
                     Header/Survey Title
