@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material";
-import {blueGrey} from "@mui/material/colors";
+import {blueGrey, yellow} from "@mui/material/colors";
 
 const options = {
     components: {
@@ -78,7 +78,7 @@ const options = {
                     boxShadow: 'none',
                     variant: 'link',
                     '&:hover': {
-                        backgroundColor: '#EA2224',
+                        backgroundColor: '#A5804A',
                     }
                 },
 
@@ -86,18 +86,18 @@ const options = {
         }
     },
     typography: {
-        fontFamily: "'Barlow', sans-serif",
+        fontFamily: "'DM Sans', sans-serif",
         secondFontFamily: ''
     },
     palette: {
         primary: {
-            main: '#090D4C',
+            main: '#002E5D',
         },
         secondary: {
-            main: '#EA2224'
+            main: '#A5804A'
         },
         background: {
-            grey: blueGrey.A100
+            grey: yellow["50"]
         }
     }
 }

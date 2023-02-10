@@ -200,7 +200,9 @@ const Hero = () => {
                 <Box>
                     <img style={{
                         float: 'right',
-                        borderRadius: '10px'
+                        borderRadius: '10px',
+                        boxShadow: '-15px 15px 1px',
+                        border: '1px solid black'
                     }}   width='80%' src={Biometric}/>
                 </Box>
             </Grid>

@@ -17,7 +17,7 @@ const Explore = () => {
             <Box style={theme.mixins.toolbar}/>
             <Box style={theme.mixins.toolbar}/>
 
-            <PageHeading title={"Explore"} subtitle={'Own a fraction of ALL 4 patents held by XiD Technologies'}/>
+            <PageHeading title={"Explore"} subtitle={'Fund will be used to stock aircraft engines'}/>
 
             <Container maxWidth='lg'>
                 <NFTList disableTitle/>

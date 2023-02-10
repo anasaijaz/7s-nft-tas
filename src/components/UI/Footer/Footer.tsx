@@ -12,14 +12,14 @@ const Footer = () => {
                 <Grid item xs={3}>
                     <img src={Logo} height='40px'/>
                     <Typography variant='body1'>
-                        nft@xidtech.com
+                        info@transcendaeroservices.com
                     </Typography>
                     <Typography variant='body1'>
-                        +65 6282 6500
+                        +65-67940206
                     </Typography>
                     <Typography variant='body1'>
-                        362 Upper Paya Lebar Rd, #05-08
-                        Singapore 534963
+                        1 Scotts Road #24-10
+                        Singapore 228208
                     </Typography>
                 </Grid>
                 <Grid item xs={3}>
